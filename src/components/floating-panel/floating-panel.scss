@@ -1,0 +1,22 @@
+.floating-panel {
+  font-size: var(--font-size-default);
+  border: var(--border);
+  width: fit-content;
+
+  background: var(--color-background);
+
+  user-select: none;
+  cursor: default;
+
+  position: absolute;
+
+  z-index: 2147483647;
+
+  &.floating-panel-padding-small {
+    padding: 12px 4px;
+  }
+
+  &.floating-panel-padding-full {
+    padding: 12px;
+  }
+}
